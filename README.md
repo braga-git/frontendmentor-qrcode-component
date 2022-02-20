@@ -1,5 +1,7 @@
 # Frontend Mentor - QR code component solution
 
+Wassup! :call_me_hand:	
+
 This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
 
 Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -17,81 +19,76 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-![My solution](https://github.com/braga-git/frontendmentor-qrcode-component/blob/main/mydesktop-design.png)
+![My solution](https://github.com/braga-git/frontendmentor-qrcode-component/blob/main/design/mydesktop-design.png)
 
 ### Links
 
 - [Solution codes](https://github.com/braga-git/frontendmentor-qrcode-component)
-- Live Site: [Add live site URL here](https://your-live-site-url.com)
+- [Live site](https://braga-git.github.io/frontendmentor-qrcode-component/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- HTML5
+- CSS3
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+As I'm too young in this world and just started to learn HTML and CSS, the hardest for me to do alone was to actually know where to start. :sweat_smile:	
 
-To see how you can add code snippets, see below:
+From my point of view, this challenge is more a CSS challenge than a HTML5 one. My biggest difficulties were about alignment and the interaction between `<img>` and `<div>`, as sometimes I was trying to configurate the div's padding and the img popped out of the div. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+This was very easy to fix, I simply used the `overflow` property with the `hidden` value:
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+div.window-qr {
+  overflow: hidden;
+} 
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+I fixed the issue of the img getting off the div, but it still wasn't centered, it kept a left margin and was displaying higher than I wanted. To fix it I setted the `img width` to `100%`.
+
+```css
+.window-qr img {
+        width: 100%;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+The last problem I had to solve was how to center my QR code either horizontally and vertically. This one I really didn't know how to do, but did found a way that worked. I used the property `transform` with `translate` value:
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```css
+main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+```
+
+In sum, I think I handled it really good! Well, even if the code isn't the best, the design is pretty close! :rofl:		
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I'll keep looking for ways to center things properly because, to be honest, I don't know 100% the usability and function of the `transform` property. :man_shrugging:	
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Alignment code source](https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/) - This is where I found the alignment code with the `transform` property. The funny thing is that it was posted almost 15 years ago.
+- [Transform property explanation](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) - This gives you an explanation about the property functions.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+Follow me for more "solutions" :wink: 
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@braga-git](https://www.frontendmentor.io/profile/braga-git)
+- Instagram - [@braga.jpeg](https://www.instagram.com/braga.jpeg/)
+- LinkedIn - [Gabriel Braga Camara](https://www.linkedin.com/in/gabrielbragacamara/)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to [@chriscoyier](https://github.com/chriscoyier) for the post about the `transform` function. I was 6 by that time! :joy:
