@@ -6,6 +6,8 @@ Essa é a minha solução para o [desafio "QR code component" do Frontend Mentor
 
 Os desafios do **Frontend Mentor** te ajudam a desenvolver suas habilidades de programação construindo projetos realistas. 
 
+Read this in poor [English](README.md) :joy:	
+
 ## Índice
 
 - [Visão geral](#visão-geral)
@@ -51,7 +53,7 @@ div.window-qr {
 } 
 ```
 
-Esse código esconde o conteúdo que exceda a div.
+Esse código esconderá o conteúdo que exceda a div.
 
 Eu corrigi o problema da imagem saindo da div, mas ela ainda não estava centralizada. Ela deixava uma margem na esquerda e aparecia mais alta do que eu gostaria. Para resolver isso eu defini a largura da imagem `img width` para `100%`. 
 
@@ -74,11 +76,13 @@ main {
 }
 ```
 
+E eu não sei exatamente como esse código funciona, mas..
+
 Em resumo, acredito que eu tenha lidado muito bem com o desafio. Bom, mesmo que o código não seja o melhor, o visual ficou bem parecido! :rofl:				
 
 ### Para me aprofundar
 
-Eu vou continuar dando pesquisando maneiras de centralizar as coisas de forma correta pois, pra ser honesto, eu não sei 100% a usabilidade e função da propriedade `transform`. Mas sei que não é o correto usar um código sem saber como ele funciona. :man_shrugging:
+Eu vou continuar dando pesquisando maneiras de centralizar as coisas de forma correta pois, como eu disse, eu não sei 100% a usabilidade e função da propriedade `transform`. **Mas sei que não é o correto usar um código sem saber como ele funciona**. :man_shrugging:
 
 ### Recursos úteis
 
