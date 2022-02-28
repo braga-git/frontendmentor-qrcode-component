@@ -82,7 +82,7 @@ Em resumo, acredito que eu tenha lidado muito bem com o desafio. Bom, mesmo que 
 
 ### Para me aprofundar
 
-Eu vou continuar dando pesquisando maneiras de centralizar as coisas de forma correta pois, como eu disse, eu não sei 100% a usabilidade e função da propriedade `transform`. **Mas sei que não é o correto usar um código sem saber como ele funciona**. :man_shrugging:
+Eu vou continuar pesquisando maneiras de centralizar as coisas de forma correta pois, como eu disse, eu não sei 100% a usabilidade e função da propriedade `transform`. **Mas sei que não é o correto usar um código sem saber como ele funciona**. :man_shrugging:
 
 ### Recursos úteis
 
