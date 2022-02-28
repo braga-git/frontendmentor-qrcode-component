@@ -51,7 +51,9 @@ div.window-qr {
 } 
 ```
 
-I fixed the issue of the img getting off the div, but it still wasn't centered, it kept a left margin and was displaying higher than I wanted. To fix it I setted the `img width` to `100%`.
+This code hiddes the content that exceeds the div. 
+
+I fixed the issue of the img getting off the div, but it still wasn't centered. It kept a left margin and was displaying higher than I wanted. To fix it I setted the `img width` to `100%`.
 
 ```css
 .window-qr img {
@@ -59,7 +61,9 @@ I fixed the issue of the img getting off the div, but it still wasn't centered, 
 }
 ```
 
-The last problem I had to solve was how to center my QR code either horizontally and vertically. This one I really didn't know how to do, but did found a way that worked. I used the property `transform` with `translate` value:
+This made the image occupy only the width of the div.
+
+The last problem I had to solve was how to center my content either horizontally and vertically. This one I really didn't know how to do, but I searched and did found a way that worked. I used the property `transform` with `translate` value:
 
 ```css
 main {
@@ -70,11 +74,13 @@ main {
 }
 ```
 
-In sum, I think I handled it really good! Well, even if the code isn't the best, the design is pretty close! :rofl:		
+And I don't really know how this code works, but..
+
+In sum, I think I handled it really good. Well, even if the code isn't the best, the design is pretty close! :rofl:		
 
 ### Continued development
 
-I'll keep looking for ways to center things properly because, to be honest, I don't know 100% the usability and function of the `transform` property. :man_shrugging:	
+I'll keep looking for ways to center things properly because, as I said, I don't know 100% the usability and function of the `transform` property. **But I do know that it's not ok to use a code without knowing how it works**. :man_shrugging:	
 
 ### Useful resources
 
