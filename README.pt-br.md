@@ -100,4 +100,4 @@ Me siga para mais "soluções" :wink:
 
 ## Reconhecimentos
 
-Gostaria de agradecer o [@chriscoyier](https://github.com/chriscoyier) pelo post sobre a propriedade `transform`. Eu tinha 6 anos na epoca! :joy:
+Gostaria de agradecer o [@chriscoyier](https://github.com/chriscoyier) pelo post sobre a propriedade `transform`. Eu tinha 6 anos na época! :joy:
